@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.css"
     />
+    <!-- Favicon -->
     <link
       rel="shortcut icon"
       href="./images/Favicon_Cima_FCinza.svg"
@@ -23,15 +24,18 @@
       }
 
       .container-fluid {
-        background-image: url("./images/Background_image_3.png");
+        background-image: url("./images/Background_image_2.png");
         height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
       }
 
       .container-fluid nav .logo {
         margin-top: 10px;
-        width: 90px;
+        width: 80px;
         height: auto;
-        opacity: 0.7;
+        opacity: 0.85;
       }
 
       .card {
@@ -54,16 +58,17 @@
   <body>
     <div class="container-fluid gx-0">
       <nav>
+        <!-- Logo canto superior -->
         <img
           class="logo float-start"
-          src="./images/Logo_Quadrado_Cinza.svg"
+          src="./images/Logo_Quadrado_Branco.svg"
           alt="Logo_Arthur_Rodrigues"
         />
       </nav>
 
       <main>
         <div class="row justify-content-center align-items-center vh-100">
-          <div class="col-4">
+          <div class="col-6">
             <div class="card float-center">
               <div class="card-body">
                 <img
@@ -72,6 +77,7 @@
                   alt="logo_retangular"
                 />
 
+                <!-- Primeira parte (Nome e Sobrenome)-->
                 <p>Qual seu nome?</p>
                 <div class="input-group mb-3">
                   <span class="input-group-text" id="primeiroNome"
@@ -96,6 +102,7 @@
                   />
                 </div>
 
+                <!-- Segunda parte (Gênero)-->
                 <p class="mb-2">Qual seu gênero?</p>
                 <div class="form-check">
                   <input
@@ -142,6 +149,7 @@
                   </label>
                 </div>
 
+                <!-- Terceira parte (Habilidades)-->
                 <p>Marque as habilidades que você possui com consistência!</p>
                 <div class="form-check form-switch">
                   <input
@@ -210,6 +218,7 @@
                   >
                 </div>
 
+                <!-- Quarta parte (Mapas)-->
                 <p>Marque quais são seus melhores mapas:</p>
                 <div class="form-check">
                   <input
@@ -287,6 +296,8 @@
                   <label class="form-check-label" for="flexCheckDefault">
                     Anubis
                   </label>
+
+                  <!--Quinta parte (Botão de "envio")-->
                 </div>
                 <a href="./thanks.html"
                   ><div class="d-grid gap-2">
