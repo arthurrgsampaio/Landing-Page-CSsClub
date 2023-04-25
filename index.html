@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link css bootstrap -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/Favicon_Cima_FCinza.svg"
+      type="image/x-icon"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container-fluid {
+        background-image: url("./images/Background_image_3.png");
+        height: 100vh;
+      }
+
+      .container-fluid nav .logo {
+        margin-top: 10px;
+        width: 90px;
+        height: auto;
+        opacity: 0.7;
+      }
+
+      .card {
+        color: white;
+        background-color: #212229dc;
+      }
+
+      .card-body .interLogo {
+        width: 170px;
+      }
+
+      main a {
+        text-decoration: none;
+      }
+    </style>
+
+    <title>Become PRO! - CSs Club</title>
+  </head>
+
+  <body>
+    <div class="container-fluid gx-0">
+      <nav>
+        <img
+          class="logo float-start"
+          src="./images/Logo_Quadrado_Cinza.svg"
+          alt="Logo_Arthur_Rodrigues"
+        />
+      </nav>
+
+      <main>
+        <div class="row justify-content-center align-items-center vh-100">
+          <div class="col-4">
+            <div class="card float-center">
+              <div class="card-body">
+                <img
+                  class="interLogo float-end mb-3"
+                  src="./images/Logo_Retangular_Branco.svg"
+                  alt="logo_retangular"
+                />
+
+                <p>Qual seu nome?</p>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="primeiroNome"
+                    >Primeiro Nome</span
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-4">
+                  <span class="input-group-text" id="segundoNome"
+                    >Segundo Nome</span
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+
+                <p class="mb-2">Qual seu gênero?</p>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Homem
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Mulher
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Prefiro não dizer
+                  </label>
+                </div>
+                <div class="form-check mb-4">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Outro
+                  </label>
+                </div>
+
+                <p>Marque as habilidades que você possui com consistência!</p>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDefault"
+                    >Boa Mira</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDefault"
+                    >Movimentação</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDefault"
+                    >Strafe</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDefault"
+                    >Granadas</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDefault"
+                    >Conhecimento de mapas</label
+                  >
+                </div>
+                <div class="form-check form-switch mb-4">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexSwitchCheckDefault"
+                    >Passagem de calls</label
+                  >
+                </div>
+
+                <p>Marque quais são seus melhores mapas:</p>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Inferno
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Mirage
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Nuke
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Overpass
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Vertigo
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Ancient
+                  </label>
+                </div>
+                <div class="form-check mb-4">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Anubis
+                  </label>
+                </div>
+                <a href="./thanks.html"
+                  ><div class="d-grid gap-2">
+                    <button class="btn btn-outline-primary" type="button">
+                      Enviar
+                    </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- script bootstrap -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
